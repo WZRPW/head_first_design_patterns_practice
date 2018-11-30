@@ -5,5 +5,12 @@ public class MiniDuckSimulator {
         Duck mallard = new MallardDuck();
         mallard.PerformFly();
         mallard.PerformQuack();
+
+        //Design Principle: program to interface
+        //use Duck superType as class Type
+        Duck modelDuck = new ModelDuck();
+        modelDuck.PerformFly();
+        modelDuck.setFlyBehavior(new FlyRocketPowered());
+        modelDuck.PerformFly();
     }
 }
