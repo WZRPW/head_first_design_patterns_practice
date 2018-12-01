@@ -1,4 +1,4 @@
-package chapter2_observer_pattern;
+package chapter2_observer_pattern.weather;
 
 public class ForcastDisplay implements Observer, DisplayUnit {
     private float currentPressure = 29.2f;

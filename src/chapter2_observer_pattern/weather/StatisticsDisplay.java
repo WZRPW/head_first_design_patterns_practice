@@ -1,4 +1,4 @@
-package chapter2_observer_pattern;
+package chapter2_observer_pattern.weather;
 
 public class StatisticsDisplay implements Observer, DisplayUnit {
     private float maxTemp = 0.0f; //not a good init value here

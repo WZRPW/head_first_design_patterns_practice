@@ -1,4 +1,4 @@
-package chapter2_observer_pattern;
+package chapter2_observer_pattern.weather;
 
 import java.util.ArrayList;
 import java.util.List;

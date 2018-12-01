@@ -1,4 +1,4 @@
-package chapter2_observer_pattern;
+package chapter2_observer_pattern.weather;
 
 public class currentConditionDisplay implements Observer, DisplayUnit {
     private float temperature;

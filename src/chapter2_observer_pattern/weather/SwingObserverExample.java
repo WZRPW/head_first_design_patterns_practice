@@ -1,7 +1,7 @@
-package chapter2_observer_pattern;
+package chapter2_observer_pattern.weather;
 
-import java.awt.*;
 import javax.swing.*;
+import java.awt.*;
 
 public class SwingObserverExample {
     JFrame frame;
