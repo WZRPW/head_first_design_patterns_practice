@@ -2,7 +2,7 @@ package chapter2_observer_pattern;
 
 public class StatisticsDisplay implements Observer, DisplayUnit {
     private float maxTemp = 0.0f; //not a good init value here
-    private float minTemp = 0.0f;
+    private float minTemp = 200f;
     private float sumTemp = 0.0f;
     private int numReadings = 0;
     private Subject wd; //Design Principle: program to Interface
@@ -25,7 +25,8 @@ public class StatisticsDisplay implements Observer, DisplayUnit {
     public void display() {
         if (numReadings != 0) {
             System.out.println("Avg/Max/Min temperature: " + sumTemp / numReadings + " / " + maxTemp + " / " + minTemp );
+        } else {
+            System.out.println("Hello! no weather data yet. Cannot display statistics");
         }
-        System.out.println("Hello! no weather data yet. Cannot display statistics");
     }
 }
