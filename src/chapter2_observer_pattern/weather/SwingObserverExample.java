@@ -2,6 +2,7 @@ package chapter2_observer_pattern.weather;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class SwingObserverExample {
     JFrame frame;
@@ -17,28 +18,25 @@ public class SwingObserverExample {
         JButton button = new JButton("Should I do it?");
 
         // Without lambdas
-        //button.addActionListener(new AngelListener());
-        //button.addActionListener(new DevilListener());
+        button.addActionListener(new AngelListener());
+        button.addActionListener(new DevilListener());
 
         // With lambdas
-        button.addActionListener(event ->
-                System.out.println("Don't do it, you might regret it!")
-        );
-        button.addActionListener(event ->
-                System.out.println("Come on, do it!")
-        );
+//        button.addActionListener(event ->
+//                System.out.println("Don't do it, you might regret it!")
+//        );
+//        button.addActionListener(event ->
+//                System.out.println("Come on, do it!")
+//        );
         frame.getContentPane().add(BorderLayout.CENTER, button);
-
-        // Set frame properties
+//
+//        // Set frame properties
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(BorderLayout.CENTER, button);
         frame.setSize(300,300);
         frame.setVisible(true);
     }
 
-	/*
-	 * Remove these two inner classes to use lambda expressions instead.
-	 *
 	class AngelListener implements ActionListener {
 		public void actionPerformed(ActionEvent event) {
 			System.out.println("Don't do it, you might regret it!");
@@ -49,6 +47,6 @@ public class SwingObserverExample {
 			System.out.println("Come on, do it!");
 		}
 	}
-	*/
+
 
 }
