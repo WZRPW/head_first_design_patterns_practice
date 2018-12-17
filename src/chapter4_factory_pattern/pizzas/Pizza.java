@@ -3,6 +3,7 @@ package chapter4_factory_pattern.pizzas;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+//Principle: program to interface rather than implementation
 abstract public class Pizza {
     String name;
     String dough;
