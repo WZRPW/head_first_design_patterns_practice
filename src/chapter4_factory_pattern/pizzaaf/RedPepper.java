@@ -1,8 +1,8 @@
 package chapter4_factory_pattern.pizzaaf;
 
-public class ParmesanCheese implements Cheese {
+public class RedPepper implements Veggies {
     @Override
     public String toString() {
-        return "Shredded Parmesan";
+        return "Red Pepper";
     }
 }
