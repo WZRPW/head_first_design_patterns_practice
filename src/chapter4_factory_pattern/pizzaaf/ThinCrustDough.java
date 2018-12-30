@@ -1,8 +1,8 @@
 package chapter4_factory_pattern.pizzaaf;
 
-public class FrozenClams implements Clams {
+public class ThinCrustDough implements Dough {
     @Override
     public String toString() {
-        return "Frozen Clams from Chesapeake Bay";
+        return "Thin Crust Dough";
     }
 }
