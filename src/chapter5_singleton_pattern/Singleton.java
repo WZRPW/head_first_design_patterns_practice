@@ -1,5 +1,12 @@
 package chapter5_singleton_pattern;
 
+// Online resource on this topic:
+// https://blog.csdn.net/justloveyou_/article/details/64127789
+// https://github.com/githubofrico/ThreadsafeSingletonAndUnthreadsafeSingleton
+// https://javarevisited.blogspot.com/2011/03/10-interview-questions-on-singleton.html
+// http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html
+
+
 //in this chapter, various types of Singleton are discussed.
 
 //classic
