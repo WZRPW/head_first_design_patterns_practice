@@ -3,6 +3,7 @@ package chapter16_parking_lot;
 import java.util.ArrayList;
 import java.util.List;
 
+//continue working parking lot simulator
 public class ParkingLot_Simulator {
 
     public static void main(String[] args) {
