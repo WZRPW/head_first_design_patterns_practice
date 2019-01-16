@@ -1,0 +1,18 @@
+the Objective C language has the following class
+NSNotificationCenter, which is likely an observer pattern implementation.
+
+https://developer.apple.com/documentation/foundation/nsnotificationcenter
+https://developer.apple.com/documentation/foundation/nsnotificationcenter/1415360-addobserver?language=objc
+
+Instance Method
+addObserver:selector:name:object:
+
+Adds an entry to the notification center's dispatch table with an observer and a notification selector, and an optional notification name and sender.
+
+Declaration
+
+- (void)addObserver:(id)observer
+           selector:(SEL)aSelector
+               name:(NSNotificationName)aName
+             object:(id)anObject;
+
