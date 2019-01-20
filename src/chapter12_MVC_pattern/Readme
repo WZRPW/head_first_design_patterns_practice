@@ -1,0 +1,10 @@
+1. MVC in iOS and Objective C
+the communication between Controller and Model is through (a) notification (Observer pattern), (b) KVO
+
+the MVC structure graph in iOS:
+https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/core_objects_2x.png
+
+Ref: https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
+
+
+2.
