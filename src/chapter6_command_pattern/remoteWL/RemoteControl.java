@@ -6,15 +6,15 @@ public class RemoteControl {
     private static final int defaultCapacity = 10;
 
     public RemoteControl() {
-        onCommands = new Command[defaultCapacity];
-        offCommands = new Command[defaultCapacity];
-        for (int i = 0; i < defaultCapacity; i++) {
+        onCommands = new Command[10];
+        offCommands = new Command[10];
+        for (int i = 0; i < 10; i++) {
             onCommands[i] = () -> { }; //what is this?
             offCommands[i] = () -> { };
         }
     }
 
-    public void setComand(int slot, Command onCommand, Command offCommand) {
+    public void setCommand(int slot, Command onCommand, Command offCommand) {
         onCommands[slot] = onCommand;
         offCommands[slot] = offCommand;
     }
@@ -27,7 +27,6 @@ public class RemoteControl {
         offCommands[slot].execute();
     }
 
-    @Override
     public String toString() {
         StringBuffer sb = new StringBuffer();
         sb.append("\n------ Remote Control -------\n");
