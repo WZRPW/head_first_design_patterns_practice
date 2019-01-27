@@ -17,4 +17,9 @@ public class DuckTestDrive {
         System.out.println("\n The TurkeyAdapter says ...");
         testDuck(turkeyAdapter);
     }
+
+    static void testDuck(Duck duck) {
+        duck.quack();
+        duck.fly();
+    }
 }
