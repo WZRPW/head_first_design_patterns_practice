@@ -1,5 +1,6 @@
 package chapter6_command_pattern.remoteWL;
 
+
 public class RemoteLoader {
 
     public static void main(String[] args) {
