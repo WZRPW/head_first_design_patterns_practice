@@ -1,6 +1,6 @@
 package chapter8_template.Barista;
 
-public class Tea {
+public class Tea extends CaffeineBeverage {
     public void brew() {
         System.out.println("Steeping the tea");
     }

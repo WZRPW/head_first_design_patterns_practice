@@ -1,6 +1,6 @@
 package chapter8_template.Barista;
 
-public class Coffee {
+public class Coffee extends CaffeineBeverage  {
     public void brew() {
         System.out.println("Dripping Coffee through filter");
     }
