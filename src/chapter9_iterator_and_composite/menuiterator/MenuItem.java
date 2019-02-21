@@ -1,6 +1,8 @@
 package chapter9_iterator_and_composite.menuiterator;
 
-public class MenuItem {
+import chapter9_iterator_and_composite.menu.MenuComponent;
+
+public class MenuItem extends MenuComponent {
     String name;
     String description;
     boolean vegetarian;
@@ -27,7 +29,7 @@ public class MenuItem {
         return vegetarian;
     }
 
-    public Iterator<MenueComponent> createIterator() { return new NullIterator(); }
+    public Iterator<MenuComponent> createIterator() { return new NullIterator(); }
 
     public void print() {
         System.out.println(" " + getName());
