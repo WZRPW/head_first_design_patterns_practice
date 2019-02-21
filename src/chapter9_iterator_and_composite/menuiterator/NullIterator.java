@@ -14,7 +14,7 @@ public class NullIterator implements Iterator<MenuComponent> {
 	 *
 	 * (non-Javadoc)
 	 * @see java.util.Iterator#remove()
-	 * 
+	 *
 	public void remove() {
 		throw new UnsupportedOperationException();
 	}
