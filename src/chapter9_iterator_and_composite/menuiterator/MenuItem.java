@@ -1,6 +1,7 @@
 package chapter9_iterator_and_composite.menuiterator;
 
 import chapter9_iterator_and_composite.menu.MenuComponent;
+import java.util.Iterator;
 
 public class MenuItem extends MenuComponent {
     String name;
