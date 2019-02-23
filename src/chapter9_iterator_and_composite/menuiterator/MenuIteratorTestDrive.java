@@ -1,6 +1,6 @@
 package chapter9_iterator_and_composite.menuiterator;
 
-public class MenuIteratorTestDrive {
+public class MenuTestDrive {
     public static void main(String args[]) {
 
         MenuComponent pancakeHouseMenu =
@@ -108,5 +108,6 @@ public class MenuIteratorTestDrive {
         Waitress waitress = new Waitress(allMenus);
 
         waitress.printVegetarianMenu();
+
     }
 }
