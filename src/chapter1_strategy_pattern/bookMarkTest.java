@@ -1,5 +1,9 @@
 package chapter1_strategy_pattern;
 
+import java.util.List;
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class bookMarkTest {
 
     public static void main(String[] args) {
