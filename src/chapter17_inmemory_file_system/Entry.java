@@ -8,12 +8,17 @@ public abstract class Entry {
     protected long lastAccessed;
     protected String name;
 
+    public Entry(String name, Directory parent) {
+        this.name = name;
+        this.parent = parent;
+        created = System.currentTimeMillis();
+    }
     public boolean delete() {
         if (parent == null) { return false; }
         return parent.deleteEntry(this);
     }
 
-    public abstract int szie();
+    public abstract int size();
 
     public String getFullPath() {
         if (parent == null) {
