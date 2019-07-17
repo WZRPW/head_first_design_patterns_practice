@@ -1,5 +1,7 @@
 package chapter7_adapter.ducks;
 
+import java.util.TreeMap;
+
 public class TurkeyAdapter implements Duck {
     Turkey turkey;
 

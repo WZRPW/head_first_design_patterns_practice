@@ -1,0 +1,22 @@
+
+
+//the Amazon lock could use the observer pattern
+//1. the Amazon employee
+//  1.1 puts package to the lock
+//  1.2 notify customer that the package is ready
+//2. the customer use a key to open the lock and pick up
+
+
+//classes in Amazone lock
+//1. lock (Subject class)
+//1.1 registerObserver
+//1.2 removeObserver
+//1.3 notifyObserver
+
+//2. user (employee and customer) (Observer class)
+//2.1 putter
+//2.2 picker
+
+//3. lock pool ( equivalent to a parking lot)
+//4. package (equivalent to a vehicle)
+//5.

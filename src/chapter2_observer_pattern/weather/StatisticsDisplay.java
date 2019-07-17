@@ -21,6 +21,7 @@ public class StatisticsDisplay implements Observer, DisplayUnit {
         sumTemp += temperature;
         display();
     }
+    
     @Override
     public void display() {
         if (numReadings != 0) {
